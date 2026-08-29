@@ -1,0 +1,21 @@
+comment,sentiment
+"I absolutely love this product 😍❤️",positive
+"This is amazing! 😊🔥",positive
+"Best experience ever ❤️",positive
+"I really enjoyed this movie 😍",positive
+"Great work! 👍😊",positive
+"This is terrible 😡",negative
+"I hate this product 😠💔",negative
+"Worst experience ever 😭",negative
+"Very disappointing 😞",negative
+"This service is horrible 😡👎",negative
+"The product arrived today.",neutral
+"It is okay 🙂",neutral
+"The movie was average 😐",neutral
+"I received the package yesterday.",neutral
+"Nothing special about it 😶",neutral
+"Absolutely fantastic! 😍❤️🔥",positive
+"Very bad experience 😡😭",negative
+"It was fine, nothing more.",neutral
+"I am so happy with this! 🥰",positive
+"I don't like this at all 😒",negative
