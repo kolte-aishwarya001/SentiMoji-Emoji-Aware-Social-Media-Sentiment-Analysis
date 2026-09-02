@@ -24,13 +24,13 @@ from sklearn.metrics import (
 # CONFIGURATION
 # ============================================================
 
-DATA_PATH = "dataset/transformer_train_30000.csv"
+DATA_PATH = "dataset/transformer_train_8000.csv"
 
 MODEL_NAME = "distilbert-base-uncased"
 
-OUTPUT_DIR = "models/distilbert_emoji_sentiment"
+OUTPUT_DIR = "models/distilbert_emoji_sentiment_8000"
 
-MAX_LENGTH = 96
+MAX_LENGTH = 64
 
 NUM_LABELS = 3
 
@@ -252,11 +252,11 @@ training_args = TrainingArguments(
 
     output_dir=OUTPUT_DIR,
 
-    num_train_epochs=2,
+    num_train_epochs=1,
 
-    per_device_train_batch_size=4,
+    per_device_train_batch_size=2,
 
-    per_device_eval_batch_size=4,
+    per_device_eval_batch_size=2,
 
     gradient_accumulation_steps=2,
 
@@ -282,7 +282,9 @@ training_args = TrainingArguments(
 
     report_to="none",
 
-    dataloader_num_workers=0
+    dataloader_num_workers=0,
+
+    use_cpu=True
 )
 
 

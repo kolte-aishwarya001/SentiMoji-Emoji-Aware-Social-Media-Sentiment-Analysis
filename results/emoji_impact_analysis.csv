@@ -1,0 +1,9 @@
+plain_text,emoji_text,plain_prediction,plain_confidence,emoji_prediction,emoji_confidence,prediction_changed,confidence_change
+I love this movie,I love this movie 😍❤️,positive,96.94,positive,97.0,False,0.06
+This product is amazing,This product is amazing 🔥🥰,positive,96.96,positive,97.18,False,0.22
+I hate this service,I hate this service 😡💔,negative,85.07,negative,85.59,False,0.52
+This is terrible,This is terrible 😭😠,negative,86.04,negative,86.43,False,0.39
+I am okay,I am okay 😂,positive,74.74,positive,66.96,False,-7.78
+I am okay,I am okay 😭,positive,74.74,positive,66.96,False,-7.78
+The meeting was fine,The meeting was fine 🙂,positive,89.23,positive,92.11,False,2.88
+The meeting was fine,The meeting was fine 😒,positive,89.23,positive,92.11,False,2.88

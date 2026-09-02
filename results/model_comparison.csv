@@ -1,0 +1,4 @@
+Model,Validation Accuracy,Test Accuracy,Test Precision,Test Recall,Test F1
+TF-IDF + Logistic Regression,67.15,58.82,59.0,59.0,59.0
+TF-IDF + SVM,64.0,55.59,56.0,56.0,55.0
+DistilBERT,72.62,67.67,67.79,67.67,67.69
